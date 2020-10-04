@@ -7,7 +7,7 @@ import { useLocation, useHistory } from "react-router-dom";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const Home = () => {
-    const [placeholder, setPlaceholder] = useState("wizeline");
+    const [placeholder, setPlaceholder] = useState("cats");
     const [videos, setVideos] = useState([]);
     const [selectedVideo, setSelectedVideo] = useState(null);    
     const [searchTerm, setSearchTerm] = useState(placeholder);    
